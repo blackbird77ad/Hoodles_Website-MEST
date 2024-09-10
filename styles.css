@@ -268,7 +268,7 @@ align-items: center;
     position: relative;
     /* column-gap: 10px; */
     font-size: 14px;
-    border-top: 1px solid;
+    /*border-top: 1px solid*/
     /*margin-top: 10px;
      height: 3rem; */
 }
@@ -279,4 +279,11 @@ align-items: center;
 
 .footer-copyright p {
     margin: 0;
+}
+
+.footer-copyright hr {
+   display: flex;
+   flex-direction: row;
+   width: 80%;
+   align-items: center;
 }
